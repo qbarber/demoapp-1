@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'staticpages#home'
-  match 'help', to: 'static_pags#help' , via: 'get'
+  match 'help', to: 'static_pages#help' , via: 'get'
  
   get 'static_pages/home'
 
