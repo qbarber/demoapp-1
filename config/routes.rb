@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'staticpages#home'
+  root 'static_pages#home'
   match 'help', to: 'static_pages#help' , via: 'get'
    resources :users
 
